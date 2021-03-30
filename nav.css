@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+}
+nav{
+    height: 100px;
+    background-color: #faf3e0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.col-a-1{
+    height: 100px;
+    margin-left: 25%;
+    display: flex;
+    vertical-align:bottom;
+    position: relative;
+}
+.col-a-1>.title{
+    width: 180px;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+    position: absolute;bottom: 5px;
+    background-image: url(image/HualaCoffeeLogo_2.png);
+    background-size: cover;
+}
+.col-a-1>.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    position: absolute;top: 65px;left: 200px;
+}
+.mobile-menu{
+    position: relative;
+}
+.menu-img{
+    width: 20px;
+    height: 20px;
+    background-image: url(image/menu.png);
+    background-size: cover;
+    position: absolute;top: 15px;left: 15px;
+    z-index: 9;
+    cursor: pointer;
+    display: none;
+}
+.menu-1{
+    position:absolute;z-index: 999;top: 50px;
+    list-style: none;
+    width: 150px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #eabf9fa3;
+    display: none;
+}
+.menu-1>li{
+    text-indent: 0.5em;
+    border: 1px solid #eabf9faa ;
+}
+.menu-1-1{
+    display: none;
+}
+.menu-1-1>li{
+    background-color: #b68973a3;
+    text-indent: 2.5em;
+    list-style: none;
+    border-bottom: 1px solid #b68973aa ;
+}
+.col-a-1>.menu>.item{
+    margin-left: 20px;
+}
+.ul-1-1{
+    list-style: none;
+    cursor: pointer;
+}
+.ul-1-1>li{
+     z-index: 1;;position: relative;
+}
+.sub{
+    list-style: none;
+    line-height: 30px;
+    display: none;
+}
+.sub>li{
+    background-color:#eabf9fa3;
+}
+.sub>li:hover{
+    background-color:#b68973a3;
+}
+@media (max-width:1000px){
+    .col-a-1{
+        margin-left: auto;margin-right: auto;
+        padding-left: 50px;
+    }
+    .col-a-1>.menu{
+        left: 230px;
+    }
+}
+@media (max-width:700px){
+    nav{
+        height: 50px;
+        width: 100%;
+        position: fixed;z-index: 1000;
+    }
+    .col-a-1{
+        width: 100%;
+        margin: 0px;padding: 0px;
+    }
+    .col-a-1>.title{
+        margin: 0px ;
+        width: 120px;
+        height: 40px;
+        margin-left: auto;margin-right: auto;
+        position: unset;
+    }
+    .col-a-1>.menu>.item{
+        display: none;
+    }
+    .menu-img{
+        display: block;
+    }
+    .menu-1{
+        cursor: pointer;
+    }
+}

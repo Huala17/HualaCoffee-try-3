@@ -1,0 +1,102 @@
+footer{
+    
+    background-color: #faf3e0;
+    font-family: 'Noto Sans TC', sans-serif;;
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+}
+.footer-2{
+    width: 600px;
+    height: 180px;
+    margin-top: 30px;
+    display: inline;
+
+}
+.logo-footer{
+    position: relative;
+}
+.logo-footer-1{
+    width: 295px;
+    height: 100px;
+    background-image: url(image/HualaCoffeeLogo_2.png);
+    background-size: cover;
+    position: absolute;right: 70px;bottom: 50px;
+}
+.text-footer-1{
+    position: relative;
+}
+.footer-3{
+    line-height: 30px;
+    margin-left: 70px;
+}
+.footer-3 span{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.footer-3 img{
+    width: 20px;
+    height: 20px;
+}
+.hr-footer{
+    width: 70%;
+    border: none;
+    height: 1px;
+    background-color: #b68973aa;
+    margin-left: auto;margin-right: auto;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    margin-top: 50px;
+}
+.rule-footer{
+    position: relative;
+    width: 600px;
+}
+.rule-footer-1{
+    position: absolute;right: 90px;
+}
+.img-footer{
+    position: relative;
+    width: 600px;
+}
+.img-footer-1{
+    display: flex;
+    position: absolute;left: 50px;
+}
+.img-footer-1 img{
+    margin-left: 10px;margin-right: 10px;
+}
+
+@media (max-width:1100px){
+    .img-footer-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:800px){
+    .footer-top{
+        flex-wrap: wrap;
+    }
+    .logo-footer{
+        height: 100px;
+    }
+    .logo-footer-1{
+        position: unset;
+        margin-left: auto;margin-right: auto;
+    }
+    .footer-3{
+        margin-left:0px ;
+        text-align: center;
+    }
+    .footer-bottom{
+        flex-wrap: wrap;
+    }
+    .rule-footer-1{
+        position: unset;
+        text-align: center;
+    }
+}

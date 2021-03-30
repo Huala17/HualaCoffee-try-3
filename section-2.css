@@ -1,0 +1,123 @@
+#section-2{
+    width: 70%;
+    margin-left: auto;margin-right: auto;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+#section-2 #block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#section-2>.block-1{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.good{
+    margin: 2.5%;
+    width: 360px;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    margin-left: auto;margin-right: auto;
+}
+#img1{
+    background-image: url(image/truck.png);
+    background-size: cover;
+}
+#img2{
+    background-image: url(image/payment.png);
+    background-size: cover;
+}
+#img3{
+    background-image: url(image/ok.png);
+    background-size: cover;
+}
+.slogan-1{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #603813;
+    margin: 10px;
+}
+.left-1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-1-1{
+    width: 450px;
+    height: 70px;
+    background-image: url(image/image-4.png);
+    background-size: cover;
+    margin-right: 20px;
+}
+.right-1{
+    width: 50%;
+}
+.text-1{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-1{
+    width: 160px;
+    margin-left: auto;margin-right: auto;
+}
+.btn-1-1{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20%;
+    width: 160px;
+    height: 50px;
+    background-color: #f1a140;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hr-1{
+    margin-left: auto;margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    height: 1px;
+    width: 90%;
+    background-color:#e4d5d5d0;
+}
+.block-3>.sale{
+    margin: 2.5%;
+    width: 360px;
+}
+.title-3{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #603813;
+}
+.hr-3{
+    width: 80px;
+    margin-left: auto;margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    height: 3px;
+    background-color: #12ba68 ;
+}
+.text-3{
+    margin-left: 15%;   
+}
+a{
+    text-decoration: none;
+}
+
+@media (max-width:600px){
+    #section-2 #block{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:500px){
+    #section-2{
+        width: 90%;
+    }
+}

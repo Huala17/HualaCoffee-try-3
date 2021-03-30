@@ -1,0 +1,136 @@
+#section-3{
+    width: 80%;
+    margin-left: auto ;margin-right: auto;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.hu-2{
+    width: 75%;
+    margin-left: auto;margin-right: auto;
+    margin-top: 50px;
+}
+.block-3-1{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;margin-right: auto;
+}
+.item-3-1{
+    width: 230px;
+    height: 290px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.img-3-1{
+    width: 230px;
+    height: 230px;
+    position: relative;
+}
+.img-3-1-1{
+    background-image: url(image/巴西.jpg);
+    background-size: cover;
+}
+.img-3-1-2{
+    background-image: url(image/海盜.jpg);
+    background-size: cover;
+}
+.img-3-1-3{
+    background-image: url(image/瓜瓜那.jpg);
+    background-size: cover;
+}
+.img-3-1-4{
+    background-image: url(image/耶加.jpg);
+    background-size: cover;
+}
+.img-3-1-5{
+    background-image: url(image/衣索比亞.jpg);
+    background-size: cover;
+}
+.text-3-1{
+    position: absolute;bottom: 0px;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #222222;opacity: 0.8;
+    text-align: center;
+    display: none;
+}
+.btn-3-1{
+    display: flex;
+    justify-content: center;
+}
+.btn-3-1-1{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: #f1a140;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hr-3-1{
+    margin-left: auto;margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    height: 1px;
+    width: 90%;
+    background-color:#e4d5d5d0;
+}
+
+@media (max-width:1572px){
+    #itm-3-7{
+        display: none;
+    }
+    #itm-3-8{
+        display: none;
+    }
+}
+@media (max-width:1200px){
+    .item-3-1{
+        width: 180px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .img-3-1{
+        width: 180px;
+        height: 180px;
+    }
+    #itm-3-7{
+        display: block;
+    }
+    #itm-3-8{
+        display: block;
+    }
+}
+@media (max-width:1128px){
+    #itm-3-7{
+        display: none;
+    }
+    #itm-3-8{
+        display: none;
+    }
+}
+@media (max-width:573px){
+    .item-3-1{
+        width: 100px;
+        height: 200px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .img-3-1{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width:520px){
+    #section-3{
+        width: 100%;
+    }
+}
